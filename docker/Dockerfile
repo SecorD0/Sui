@@ -1,4 +1,4 @@
-FROM ubuntu
+FROM ubuntu:20.04
 
 LABEL creator="SecorD >> 1package"
 LABEL url="📦 All in https://t.me/OnePackage"
