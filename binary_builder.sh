@@ -20,7 +20,7 @@ while test $# -gt 0; do
 		echo -e "You can use either \"=\" or \" \" as an option and value ${C_LGn}delimiter${RES}"
 		echo
 		echo -e "${C_LGn}Useful URLs${RES}:"
-		echo -e "https://t.me/OnePackage — node Community"
+		echo -e "https://t.me/OnePackage — noderun and tech community"
 		echo
 		return 0 2>/dev/null; exit 0
 		;;
