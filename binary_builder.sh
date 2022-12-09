@@ -54,9 +54,9 @@ main() {
 	cargo build --release
 	rm -rf $HOME/sui_bin/
 	mkdir -p $HOME/sui_bin/
-	mv $HOME/sui/target/release/{sui,sui-node,sui-faucet} $HOME/sui_bin/
+	mv $HOME/sui/target/release/{sui,sui-node,sui-faucet,sui-indexer} $HOME/sui_bin/
 	cd $HOME/sui_bin/
-	tar -czvf "sui-linux-amd64-$version.tar.gz" sui sui-faucet sui-node
+	tar -czvf "sui-linux-amd64-$version.tar.gz" sui sui-faucet sui-node sui-indexer
 	cd
 }
 
