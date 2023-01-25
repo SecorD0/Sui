@@ -47,10 +47,9 @@ main() {
 		git clone https://github.com/MystenLabs/sui
 	fi
 	cd $HOME/sui
-	git remote add upstream https://github.com/MystenLabs/sui
-	git fetch upstream
-	git stash
-	git checkout -B devnet --track upstream/devnet
+ 	git stash
+	git pull
+	git checkout devnet-$version
 	cargo build --release
 	rm -rf $HOME/sui_bin/
 	mkdir -p $HOME/sui_bin/
